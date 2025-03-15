@@ -1,0 +1,17 @@
+.nav-text{
+    font-family: "Cormorant Upright", serif;
+}
+.nav-menu ul li {
+    position: relative;
+  }
+  
+  .nav-menu ul li:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 50px;
+    height: 3px; /* Thickness of the underline */
+    background: #D9D04F;
+  }
